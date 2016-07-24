@@ -166,6 +166,8 @@ nav {
   padding-bottom: 4rem; }
   .section__login h5, .section__login h4 {
     color: #26a69a; }
+  .section__login a {
+    color: #26a69a; }
   .section__login .card a {
     color: white; }
   .section__login .btn i {
