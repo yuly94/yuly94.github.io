@@ -16,6 +16,7 @@
      More ........................... Grid of icons & copy
      Pricing......................... Pricing - panels w/ slide-up effect
      FAQS ........................... List of collapsable elements
+     Login .......................... The login form. Couple text elements.
      Contact ........................ The contact form. Couple text elements.
    <footer>
      Footer ......................... About the site; social contact info
@@ -157,6 +158,34 @@ nav {
 @media (max-width: 600px) {
   .collapsible-header p.flow-text {
     margin: 1rem 0; } }
+    
+/*------------------------------------*\
+    #Login
+\*------------------------------------*/
+.section__login {
+  padding-bottom: 4rem; }
+  .section__login h5, .section__login h4 {
+    color: #26a69a; }
+  .section__login .card a {
+    color: white; }
+  .section__login .btn i {
+    color: white; }
+  .section__login form.card {
+    padding: 1.5rem;
+    border: 0.35rem solid #26a69a; }
+  .section__login .required {
+    color: #26a69a; }
+  .section__login .optional {
+    color: #e0e0e0; }
+  .section__login .btn {
+    background-color: #26a69a;
+    width: 100%; }
+  .section__login .hire-notes {
+    padding: 1rem 3rem;
+    color: #9e9e9e; }
+
+    
+    
 /*------------------------------------*\
     #Contact
 \*------------------------------------*/
